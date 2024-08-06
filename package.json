@@ -11,7 +11,6 @@
   "scripts": {
     "lint": "npm-run-all --parallel lint:*",
     "lint:scripts": "eslint {src,tests}/scripts/**",
-    "lint:styles": "stylelint src/styles/**",
     "lint-fix": "npm-run-all --parallel lint-fix:*",
     "lint-fix:scripts": "npm run lint:scripts -- --fix",
     "lint-fix:styles": "npm run lint:styles -- --fix",
@@ -35,11 +34,11 @@
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
-    "@adventure/eslint-config-adventure": "^2.0.0",
-    "@adventure/stylelint-config-adventure": "^1.0.0",
+    "@ryze-digital/eslint-config-website": "github:ryze-digital/eslint-config-website",
     "babel-loader": "^9.1.3",
     "copyfiles": "^2.4.1",
     "expose-loader": "^4.1.0",
+    "globals": "^15.9.0",
     "imagemin": "^8.0.1",
     "imagemin-cli": "^7.0.0",
     "imagemin-mozjpeg": "^10.0.0",
@@ -55,8 +54,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@adventure/js-utilities": "^1.1.2",
-    "@adventure/scss-utilities": "^1.1.0",
     "core-js": "^3.38.0",
     "jquery": "^3.7.1",
     "lazysizes": "^5.3.2",
@@ -65,5 +62,6 @@
   "browserslist": [
     "> 0.5%",
     "not IE > 0"
-  ]
+  ],
+  "type": "module"
 }
