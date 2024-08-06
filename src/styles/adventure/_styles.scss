@@ -1,0 +1,7 @@
+@use "@adventure/scss-utilities" as adventure;
+
+@include adventure.configure((
+    // Adventure Projekt Konfiguration
+));
+
+@include adventure.global-styles();
