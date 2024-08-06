@@ -2,7 +2,7 @@
   "name": "actions-playground",
   "description": "",
   "license": "UNLICENSED",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "RYZE Digital GmbH <kontakt@ryze-digital.de> (https://www.ryze-digital.de/)",
   "main": "src/scripts/main.js",
   "config": {
