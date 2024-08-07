@@ -2,7 +2,7 @@
   "name": "@baedda/actions-playground",
   "description": "",
   "license": "UNLICENSED",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "RYZE Digital GmbH <kontakt@ryze-digital.de> (https://www.ryze-digital.de/)",
   "main": "src/scripts/main.js",
   "config": {
